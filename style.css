@@ -1,0 +1,100 @@
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'Comic Neue', cursive;
+	color: white;
+	font-size: 35px;
+}
+
+h2{
+	font-family: 'Comic Neue', cursive;
+	color: black;
+	font-size: 22px;
+}
+
+p, a {
+	font-family: 'Comic Neue', cursive;
+	color: white;
+	font-size: 18px;
+	text-align: left;
+}
+
+img{
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+li{
+	list-style: none;
+	font-size: 32px;
+	display: inline;
+	margin: 70px
+}
+
+i:hover{
+	color: black;
+}
+
+ul{
+	padding: 0px;
+}
+
+.card-white {
+	background-color: #CCA9DD;
+	border-radius: 6px;
+	margin: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	text-align: center;
+	box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/*Custom design*/
+
+/*classes*/
+
+.btn-orange{
+	background-color: orangered;
+	color: white;
+	padding: 12px 24px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.btn-orange:hover{
+	background-color: whitesmoke;
+	color: red;
+}
+
+/*Id*/
+
+#btn-pink{
+	background-color: pink;
+}
+
+/Media queries */
+
+@media (max-width:  960px) {
+.container{
+	width: 700px;
+}
+}
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+		margin: auto;
+	}
+}
